@@ -1,0 +1,70 @@
+<html !doctype>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="dist/bundle.css">
+    <script src="dist/bundle.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="nav">
+      <img src="src/images/nav icon.png" alt="menu">
+    </div>
+    <div class="logo">
+      <h3>CodeJam - Canvas</h3>
+    </div>
+  </header>
+  <main class="main">
+    <div class="column">
+      <div class="column__tools">
+        <div class="string">
+          <img src="src/images/fill-drip.png" alt="fill">
+          <p>Paint bucket</p>
+        </div>
+        <div class="string">
+          <img src="src/images/icon-upload.png" alt="choose">
+          <p>Choose color</p>
+        </div>
+        <div class="string">
+          <img src="src/images/icon-copy.png" alt="move">
+          <p>Move</p>
+        </div>
+        <div class="string">
+          <img src="src/images/icon-share.png" alt="transform">
+          <p>Transform</p>
+        </div>
+      </div>
+      <div class="column__colors">
+        <div class="string">
+          <div class="ellipse"></div>
+          <p>Current color</p>
+        </div>
+        <div class="string">
+          <div class="ellipse"></div>
+          <p>Prev color</p>
+        </div>
+        <div class="string">
+          <div class="ellipse"></div>
+          <p>red</p>
+        </div>
+        <div class="string">
+          <div class="ellipse"></div>
+          <p>blue</p>
+        </div>
+      </div>
+    </div>
+    <div class="canvas">
+      <canvas id="canvas" width="512" height="512"></canvas>
+      <div class="switcher">
+        <input type="submit" value="4x4" class="small">
+        <input type="submit" value="32x32" class="medium">
+        <input type="submit" value="512x512" class="large">
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
